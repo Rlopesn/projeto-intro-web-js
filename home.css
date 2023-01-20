@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+}
+
+a {
+    text-decoration-line: none;
+    color: #0E0E0E;
+}
+
+header {
+    background-color: #FBFBFB;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+
+}
+
+#logo {
+    display: flex;
+    width: 15vw;
+    height: 10vh;
+}
+
+.lista-link {
+    display: flex;
+    flex-direction:row;
+    list-style-type: none;
+    text-decoration-line: none;
+    font-size: 0.8rem;
+    column-gap: 3vw;
+}
+
+#whatsapp {
+    height: 20vh;
+    width: 4vw;
+    position: fixed;
+    bottom: 10vh;
+    right: 10vh;
+
+}
+
+main section:nth-child(3) {
+    height: 40vh;
+    background-color: #0E0E0E;
+    text-align: center;
+    color: #FBFBFB;
+
+}
+
+.text-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F6C34A url(./media/background-hero.svg);
+    height: 65vh;
+    font-size: 1.5rem;
+}
+
+.text-2 {
+    font-family: poppins, sans-serif;
+    padding-top: 6vh;
+    font-size: 1.5rem;
+    color: #FBFBFB;
+}
+
+.text-3 {
+    font-family: Open sans;
+    padding: 5vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-size: 1rem;
+
+}
+
+#botao-1 {
+    background-color: #0E0E0E;
+    color: #FBFBFB;
+    width: 18vw;
+    height: 6vh;
+    border-radius: 5px;
+    margin-top: 7vh;
+    font-size: 0.9rem;
+}
+
+#container-depo {
+    background-color: #0E0E0E;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    height: 40vh;
+    padding: 2vh 15vw;
+    padding-bottom: 12vh;
+    gap: 0.5rem;
+    text-align: center;
+    font-family: Open sans;
+    font-size: 0.7rem;
+}
+
+.depo {
+    font-family: poppins, sans-serif;
+    grid-column: 2/4;
+    font-size: 1.5rem;
+    color: #FBFBFB;
+}
+
+.depoimentos {
+    background-color: #FBFBFB;
+    height: 98%;
+    padding-bottom: 0.4rem;
+    width: 90%;
+    border-radius: 0.5rem;
+    grid-row: 3/3;
+}
+
+.depo-img-1 {
+    width: 40%;
+    height: 40%;
+    padding-top: 0.8rem;
+
+}
+
+.text-depo {
+    padding: 0.6rem;
+    text-align: left;
+}
+
+#container-footer {
+    background-color: #F6C34A;
+    height: 45vh;
+    display: flex;
+    
+    align-items: center;
+    column-gap: 6vw;
+
+}
+
+.logo-footer img {
+    
+    height: 6vh;
+    width: 10vw;
+}
+
+.logo-footer {
+    padding: 0.5vh 0vw 0.5vh 14.2vw;
+    margin-top: -8%;
+}
+
+.logo-rs img {
+
+    height: 5vh;
+    width: 15%;
+    margin-top: ;
+}
+
+.address {
+    padding-left: 14.5vw;
+}
+
+.mapouter {
+    margin-left: 12.5rem;
+    position: relative;
+    border: 1px solid black;
+
+}
+
+.links-footer {
+    font-family: open sans;
+    font-size: 0.7rem;
+    color: #0E0E0E;
+}
+
+.titulo-link {
+    margin-top: -0.9vh;
+    margin-left: -1vw;
+    line-height: 2;
+}
+
+.titulo-rs {
+    margin-top: -15.5vh;
+
+}
+
+.titulo-ar {
+    margin-top: -16vh;
+    line-height: 2;
+}
